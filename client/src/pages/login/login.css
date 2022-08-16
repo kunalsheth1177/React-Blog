@@ -1,0 +1,62 @@
+.login{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+        ),
+    
+        url("https://global-uploads.webflow.com/5e157548d6f7910beea4e2d6/600b68b19c13162242cdfeb6_5e84f35272185517e89b76da_manja-vitolic-7tOV35hnkao-unsplash.jpg");
+    background-size: cover;
+}
+.loginTitle{
+    font-size: 80px;
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.loginForm>label{
+    margin: 10px 0;
+}
+
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: coral;
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
